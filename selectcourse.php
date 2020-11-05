@@ -103,7 +103,7 @@ $row_teacher=mysqli_fetch_assoc($teacher);
                 <td></td>
                 <td></td>
                 <td width="27%" height="20" align="center" valign="middle">
-                <a href=".php">创建课程</a>
+                <a href="course/addcourse.php">创建课程</a>
                 </td>
             <tr>
 		<td height="169" colspan="5" align="center">
