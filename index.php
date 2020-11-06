@@ -95,9 +95,9 @@
 					<li><a href="index.php">网站首页</a></li>
                                         <li><a href="teacher/teachermanage.php">教师管理</a></li>
 					<li><a href="course/courselist.php">课程管理</a></li>
-					<li><a href="course_chapter.php">章节管理</a></li>
-					<li><a href="topicmanage.php">题目管理</a></li>
-					<li><a href="zujuan.php">组卷系统</a></li>
+					<li><a href="chapter/chapterlist.php">章节管理</a></li>
+					<li><a href="topic/topicmanage.php">题目管理</a></li>
+					<li><a href="paper/index.php">组卷系统</a></li>
 				</ul>    
 		</div>    
 				
