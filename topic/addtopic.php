@@ -35,15 +35,15 @@ $row_Topic=mysqli_fetch_assoc($Topic) ;
         
         <tr>
 			<td width="15%" height="20" align="left" valign="middle">
-				<a href="index.php">首页</a>
+				<a href="../index.php">首页</a>
 			</td>
-			<td width="15%" height="20%"><a href="">课程管理</a></td>
-			<td width="15%" height="20%"><a href="">课程章节管理</a></td>
+			<td width="15%" height="20%"><a href="../course/courselist.php">课程管理</a></td>
+			<td width="15%" height="20%"><a href="../chapter/chapterlist.php">课程章节管理</a></td>
 			<td width="15%" height="20%" align="left" valign="middle">
-				<a href="">教师管理</a>
+				<a href="../teacher/teachermanage.php">教师管理</a>
 			</td>
 			<td width="15%" height="20%" align="left" valign="middle">
-				<a href="">组卷系统</a>
+				<a href="../paper/index.php">组卷系统</a>
 			</td>
 		</tr>
         <tr><table><hr></table></tr>

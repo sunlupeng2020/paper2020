@@ -22,12 +22,12 @@ $data=date('Y-m-d H:i:s',time());
             <td width="15%" height="20%" align="left" valign="middle">
                 <a href="../index.php">首页</a>
             </td>
-            <td width="15%" height="20%"><a href="">课程管理</a></td>
-            <td width="15%" height="20%"><a href="">课程章节管理</a></td>
-            <td width="15%" height="20%"><a href="">题目管理</a></td>
-            <td width="15%" height="20%"><a href="teachermanage.php">教师管理</a></td>
+            <td width="15%" height="20%"><a href="../course/courselist.php">课程管理</a></td>
+            <td width="15%" height="20%"><a href="../chapter/chapterlist.php">课程章节管理</a></td>
+            <td width="15%" height="20%"><a href="../topic/topicmanage.php">题目管理</a></td>
+            <td width="15%" height="20%"><a href="../teacher/teachermanage.php">教师管理</a></td>
             <td width="20%" height="20%" align="left" valign="middle">
-                <a href="">组卷系统</a>
+                <a href="../paper/index.php">组卷系统</a>
             </td>
         </tr>
         <tr><table><hr></table></tr>

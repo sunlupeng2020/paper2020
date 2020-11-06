@@ -84,17 +84,17 @@ $row_course=mysqli_fetch_assoc($course);//取出一行数据的关联数组（�
 <body bgcolor="white">
 	<table width="100%" border="0" align="center">
             <div id="head">
-			<p align="right"><font color="white"><a class="login" href="">【登录】</a>
+			<p align="right"><font color="white"><a class="login" href="login.php">【登录】</a>
             <a class="reg"  target="_blank" href="">【注册】</a></font></p>
             </div>
 <!--导航栏-->
         <div id="mune">
             <ul>
-                <li><a href="index.php">网站首页</a></li>
-                <li><a href="teachermanage.php">教师管理</a></li>
-		<li><a href="courselist.php">课程管理</a></li>
-		<li><a href="course_chapter.php">章节管理</a></li>
-		<li><a href="topicmanage.php">题目管理</a></li>
+                <li><a href="../index.php">网站首页</a></li>
+                <li><a href="../teacher/teachermanage.php">教师管理</a></li>
+		<li><a href="../course/courselist.php">课程管理</a></li>
+		<li><a href="../chapter/chapterlist.php">章节管理</a></li>
+		<li><a href="../topic/topicmanage.php">题目管理</a></li>
 		<li><a href="../paper/index.php">组卷系统</a></li>
             </ul>    
 	</div>    
