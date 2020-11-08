@@ -36,11 +36,11 @@ else{
 		          <td width="10%" rowspan="2">&nbsp;</td>
 		     </tr>
 		    <tr>
-			<td width="15%" height="20"  valign="middle"><a href="index.php">首页</a></td>
-			<td width="15%" height="20%" valign="middle"><a href="">课程管理</a></td>
-			<td width="15%" height="20%" valign="middle"><a href="">课程章节管理</a></td>
-			<td width="15%" height="20%" valign="middle"><a href="">教师管理</a></td>
-			<td width="15%" height="20%" valign="middle"><a href="">组卷系统</a></td>
+			<td width="15%" height="20"  valign="middle"><a href="../index.php">首页</a></td>
+			<td width="15%" height="20%" valign="middle"><a href="../course/courselist.php">课程管理</a></td>
+			<td width="15%" height="20%" valign="middle"><a href="../chapter/chapterlist.php">课程章节管理</a></td>
+			<td width="15%" height="20%" valign="middle"><a href="../teacher/teachermanage.php">教师管理</a></td>
+			<td width="15%" height="20%" valign="middle"><a href="../paper/index.php">组卷系统</a></td>
 		</tr>
 		     <tr>
 		          <td width="15%" height="20">&nbsp;</td>
