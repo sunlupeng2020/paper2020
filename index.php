@@ -93,7 +93,7 @@
         <div id="mune">
 				<ul>
 					<li><a href="index.php">网站首页</a></li>
-                                        <li><a href="teacher/teachermanage.php">教师管理</a></li>
+                    <li><a href="teacher/teachermanage.php">教师管理</a></li>
 					<li><a href="course/courselist.php">课程管理</a></li>
 					<li><a href="course_chapter.php">章节管理</a></li>
 					<li><a href="topicmanage.php">题目管理</a></li>
