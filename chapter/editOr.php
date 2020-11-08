@@ -1,5 +1,6 @@
 ﻿<!--  editOr.php  编辑章节 -->
 <?php require_once '../connections/conn.php';?>
+ <?php require'../connections/isrealuser.php';?>
 <?php
 if (isset($_GET['id'])) {
     $id = $_GET['id'];

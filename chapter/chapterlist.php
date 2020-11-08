@@ -1,6 +1,8 @@
 ﻿<!--  chapterlist.php  编辑章节列表 -->
-<?php require_once('../connections/conn.php'); ?>
+<?php require_once('../connections/conn.php'); //连接数据库?>
+<?php require'../connections/isrealuser.php';//判断是否用户登陆？?>
 <?php
+
 mysqli_query($conn,'set names utf8');
 $query_Chapter="select * from chapter";
 $Chapter=mysqli_query($conn,$query_Chapter) or die(mysqli_error($conn));

@@ -1,7 +1,4 @@
 <!--  allchapter.php  显示所有章节 -->
-<?
-//header("Content-Type:text/html;charset=utf-8");
-?>
 <?php require_once '../connections/conn.php';?>
 <?php
 MySQLi_query($conn,"set names 'utf8'");

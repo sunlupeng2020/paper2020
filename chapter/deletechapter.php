@@ -27,15 +27,14 @@ $row_Chapter=mysqli_fetch_assoc($Chapter);//取出一行数据的关联数组（
                 <td  valign="middle" align="center" ><b>章名称</b></td>
                 <td  valign="middle"  align="center"><b>编辑删除</b></td>
             </tr>
-            <?php do { ?><tr valign="middle" align="center">
-                    <td><?php echo $row_Chapter['number']; ?></td>
-		<td><?php echo $row_Chapter['chaptername'] ; ?></td>
-		<input type="hidden" name="id" id="id"  value="<?php echo $row_Chapter['id'] ?>">
-		<td><a href="editOr.php?id=<?php echo $row_Chapter['id'] ?>" title="editOr.php?id=<?php echo $row_Chapter['id'] ?>">编辑</a>
-                    <a href="deleteOr.php?id=<?php echo $row_Chapter['id'] ?>" onclick="javascript:return confirm('您确定删除该章吗？');">删除</a>
-		</td>
-            </tr>
-
+            <?php do { ?>
+                <tr valign="middle" align="center">
+                  <td><?php echo $row_Chapter['number']; ?></td>
+		          <td><?php echo $row_Chapter['chaptername'] ; ?></td>
+		          <input type="hidden" name="id" id="id"  value="<?php echo $row_Chapter['id'] ?>">
+		          <td><a href="editOr.php?id=<?php echo $row_Chapter['id'] ?>" title="editOr.php?id=<?php echo $row_Chapter['id'] ?>">编辑</a><a href="deleteOr.php?id=<?php echo $row_Chapter['id'] ?>" onclick="javascript:return confirm('您确定删除该章吗？');">删除</a>
+		          </td>
+                </tr>
             <?php }while ($row_Chapter=mysqli_fetch_assoc($Chapter)) ;
              ?> 
 		</table>

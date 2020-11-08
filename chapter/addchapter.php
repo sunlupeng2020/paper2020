@@ -1,4 +1,5 @@
 ﻿<!--  addpaper.php  添加章节 -->
+ <?php require'../connections/isrealuser.php';?>
 <?php
     date_default_timezone_set('prc');
     $data = date('Y-m-d H:i:s',time());
